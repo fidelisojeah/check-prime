@@ -1,0 +1,35 @@
+{
+  "name": "check-prime",
+  "version": "1.0.1",
+  "description": "it checks for prime numbers in a range of numbers between 1 and 100 is a prime number",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidelisojeah/check-prime.git"
+  },
+  "keywords": [
+    "prime",
+    "numbers",
+    "javascript"
+  ],
+  "author": "Fidelis Ojeah, Amarachi Akuwudike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fidelisojeah/check-prime/issues"
+  },
+  "homepage": "https://github.com/fidelisojeah/check-prime#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
